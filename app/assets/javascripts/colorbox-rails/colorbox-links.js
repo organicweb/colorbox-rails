@@ -23,7 +23,8 @@ $(document).ready(function() {
                 innerHeight: $(this).data("colorbox-innerheight") || false,
                 innerWidth: $(this).data("colorbox-innerwidth") || false,
                 href: $(this).attr('href'),
-                opacity: 0.5
+                opacity: 0.5,
+                rel: $(this).data("colorbox-rel") || false
             });
     });
 });
